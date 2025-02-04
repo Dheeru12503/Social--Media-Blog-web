@@ -26,7 +26,7 @@ app.listen(PORT, (req, res) => {
 // data base connection
 dbConnect();
 
-
+app.listen()
 // cloudinary data base connection 
 const cd = require("./config/cloudinaryDataBase");
 cd.cloudinaryConnect();
